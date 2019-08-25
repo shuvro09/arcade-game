@@ -12,5 +12,6 @@ body{
     text-align: center;
 }
 #game-over {
+    display:none;
     padding-top:20%;
 }
