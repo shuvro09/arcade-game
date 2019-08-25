@@ -97,7 +97,7 @@ var allEnemies = [e1, e2, e3, e4, e5, e6];
 var player = new Player(300, 395);
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
-var g = new Gems(xpos[Math.floor(Math.random() * 5)], ypos[Math.floor(Math.random() * 5)]);
+var g = new Gems(xpos[Math.floor(Math.random() * 5)], ypos[Math.floor(Math.random() * 3)]);
 
 document.addEventListener('keyup', function (e) {
     var allowedKeys = {
